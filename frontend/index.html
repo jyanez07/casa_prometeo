@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casa Prometeo — Curso de Ingreso a la Universidad y Clases Particulares</title>
+  <meta name="description" content="Curso de preparación para el examen de admisión a la universidad y clases particulares con profesores especializados. Casa Prometeo." />
+  <link rel="icon" type="image/png" href="/assets/logo.png" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand">
+        <img src="/assets/logo.png" alt="Casa Prometeo" class="brand-logo" />
+        <span class="brand-name">Casa <strong>Prometeo</strong></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#curso">El curso</a>
+        <a href="#profesores">Profesores</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto" class="btn btn-primary nav-cta">Inscríbete</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="eyebrow">Curso de ingreso · Clases particulares</span>
+        <h1>Enciende tu camino a la universidad</h1>
+        <p class="lead">
+          Preparación integral para el examen de admisión con profesores
+          especializados. Aprende con método, confianza y acompañamiento
+          personalizado en <strong>Casa Prometeo</strong>.
+        </p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-primary btn-lg">Quiero inscribirme</a>
+          <a href="#profesores" class="btn btn-ghost btn-lg">Conoce a los profesores</a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong>+5</strong><span>años de experiencia</span></li>
+          <li><strong>90%</strong><span>de aceptación</span></li>
+          <li><strong>1 a 1</strong><span>atención personalizada</span></li>
+        </ul>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <img src="/assets/logo.png" alt="" class="hero-logo" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CURSO ===================== -->
+  <section class="section" id="curso">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Qué ofrecemos</span>
+        <h2>Dos formas de prepararte</h2>
+        <p>Elige el formato que mejor se adapte a tu objetivo y tu ritmo.</p>
+      </div>
+      <div class="cards-2">
+        <article class="feature-card">
+          <div class="feature-icon">🏛️</div>
+          <h3>Curso de ingreso a la universidad</h3>
+          <p>Programa completo que cubre todo el temario del examen de admisión:
+             matemáticas, español, física, química e historia. Simulacros,
+             bancos de preguntas actualizados, seguimiento de tu avance y retroalimentación personalizada.</p>
+          <ul class="check-list">
+            <li>Temario completo del examen</li>
+            <li>Exámenes simulacro por área</li>
+            <li>Material de estudio actualizado</li>
+          </ul>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">📚</div>
+          <h3>Clases particulares</h3>
+          <p>Sesiones uno a uno o en grupos pequeños, enfocadas en las materias
+             donde más necesitas reforzar. Horarios flexibles, presencial o en línea.</p>
+          <ul class="check-list">
+            <li>Plan personalizado por alumno</li>
+            <li>Horarios flexibles</li>
+            <li>Presencial o en línea</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROFESORES (CARRUSEL) ===================== -->
+  <section class="section section-alt" id="profesores">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Nuestro equipo</span>
+        <h2>Conoce a tus profesores</h2>
+        <p>Especialistas en cada materia, comprometidos con tu ingreso.</p>
+      </div>
+
+      <div class="carousel" id="carousel">
+        <button class="carousel-arrow prev" id="prevBtn" aria-label="Anterior">&#8249;</button>
+        <div class="carousel-viewport">
+          <div class="carousel-track" id="track">
+            <!-- Tarjetas generadas por JS desde /api/profesores -->
+            <p class="carousel-loading">Cargando profesores…</p>
+          </div>
+        </div>
+        <button class="carousel-arrow next" id="nextBtn" aria-label="Siguiente">&#8250;</button>
+      </div>
+      <div class="carousel-dots" id="dots"></div>
+    </div>
+  </section>
+
+  <!-- ===================== BENEFICIOS ===================== -->
+  <section class="section" id="beneficios">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Por qué Casa Prometeo</span>
+        <h2>Lo que nos hace diferentes</h2>
+      </div>
+      <div class="cards-3">
+        <article class="benefit"><div class="feature-icon">🎯</div><h3>Método probado</h3><p>Estrategias de estudio que han llevado a cientos de alumnos a su universidad.</p></article>
+        <article class="benefit"><div class="feature-icon">👥</div><h3>Grupos pequeños</h3><p>Atención cercana para que ninguna duda se quede sin resolver.</p></article>
+        <article class="benefit"><div class="feature-icon">📈</div><h3>Seguimiento real</h3><p>Medimos tu avance con simulacros y retroalimentación constante.</p></article>
+        <article class="benefit"><div class="feature-icon">💬</div><h3>Acompañamiento</h3><p>Resolvemos tus dudas también fuera del horario de clase.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIOS ===================== -->
+  <section class="section section-alt" id="testimonios">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Historias de éxito</span>
+        <h2>Lo que dicen nuestros alumnos</h2>
+      </div>
+      <div class="cards-3">
+        <blockquote class="testimonial">
+          <p>"Entré a mi primera opción. Las clases me dieron la confianza y el método que me faltaban."</p>
+          <footer><strong>Mariana L.</strong><span>Ingeniería</span></footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"Los profesores explican increíble. Pasé de no entender física a que fuera mi mejor sección."</p>
+          <footer><strong>Diego R.</strong><span>Medicina</span></footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"El acompañamiento personalizado hizo toda la diferencia. ¡Mil gracias, Casa Prometeo!"</p>
+          <footer><strong>Sofía M.</strong><span>Derecho</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section class="section" id="faq">
+    <div class="container container-narrow">
+      <div class="section-head">
+        <span class="eyebrow">Dudas comunes</span>
+        <h2>Preguntas frecuentes</h2>
+      </div>
+      <div class="faq" id="faqList">
+        <details class="faq-item">
+          <summary>¿Cuándo inician los cursos?</summary>
+          <p>Abrimos grupos en diciembre y febrero. Escríbenos por WhatsApp y te decimos la fecha del próximo inicio según tu objetivo.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Las clases son presenciales o en línea?</summary>
+          <p>Ofrecemos clases en linea que quedan grabadas para que puedas estudiar en cualquier momento.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Para qué universidades preparan?</summary>
+          <p>Preparamos para los principales exámenes de admisión. Cuéntanos a qué universidad quieres ingresar.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Puedo tomar solo clases particulares de una materia?</summary>
+          <p>¡Claro! Puedes reforzar únicamente las materias que necesites, con horarios flexibles.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Cómo me inscribo?</summary>
+          <p>Llena el formulario de contacto y te escribimos por WhatsApp para darte todos los detalles y resolver tus dudas.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACTO / INSCRIPCIÓN ===================== -->
+  <section class="section section-cta" id="contacto">
+    <div class="container container-narrow">
+      <div class="section-head">
+        <span class="eyebrow">Da el primer paso</span>
+        <h2>Inscríbete o pide informes</h2>
+        <p>Llena tus datos y te contactamos por WhatsApp para ayudarte.</p>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <label>Nombre completo
+            <input type="text" name="nombre" required placeholder="Tu nombre" />
+          </label>
+          <label>Teléfono
+            <input type="tel" name="telefono" required placeholder="10 dígitos" />
+          </label>
+        </div>
+        <label>¿Qué te interesa?
+          <select name="interes" required>
+            <option value="" disabled selected>Selecciona una opción</option>
+            <option value="Curso de ingreso a la universidad">Curso de ingreso a la universidad</option>
+            <option value="Clases particulares">Clases particulares</option>
+            <option value="Ambos / Aún no estoy seguro">Ambos / Aún no estoy seguro</option>
+          </select>
+        </label>
+        <label>Mensaje (opcional)
+          <textarea name="mensaje" rows="3" placeholder="Cuéntanos tu objetivo, universidad meta, dudas…"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">
+          Enviar por WhatsApp
+        </button>
+        <p class="form-note">Se abrirá WhatsApp con tu mensaje listo para enviar.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="/assets/logo.png" alt="Casa Prometeo" class="footer-logo" />
+        <p>Tu mejor preparación para el ingreso a la universidad.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#curso">El curso</a>
+        <a href="#profesores">Profesores</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="footer-social">
+        <p class="footer-social-label">Síguenos</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/casa_prometeo/" target="_blank" rel="noopener" aria-label="Instagram" class="social-icon social-icon--instagram">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.054 1.805.249 2.227.415.56.217.96.477 1.382.898.42.421.68.822.898 1.382.166.422.36 1.057.413 2.227.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.054 1.17-.248 1.805-.413 2.227a3.7 3.7 0 01-.898 1.382 3.7 3.7 0 01-1.382.898c-.422.166-1.057.36-2.227.413-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.054-1.805-.248-2.227-.413a3.7 3.7 0 01-1.382-.898 3.7 3.7 0 01-.898-1.382c-.166-.422-.36-1.057-.413-2.227C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.054-1.17.248-1.805.413-2.227a3.7 3.7 0 01.898-1.382A3.7 3.7 0 014.926 2.578c.422-.166 1.057-.36 2.227-.413C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.74 0 8.332.014 7.052.072 5.775.13 4.902.333 4.14.63a5.862 5.862 0 00-2.126 1.384A5.862 5.862 0 00.63 4.14C.333 4.902.13 5.775.072 7.052.014 8.332 0 8.74 0 12c0 3.26.014 3.668.072 4.948.058 1.277.261 2.15.558 2.912a5.862 5.862 0 001.384 2.126A5.862 5.862 0 004.14 23.37c.762.297 1.635.5 2.912.558C8.332 23.986 8.74 24 12 24s3.668-.014 4.948-.072c1.277-.058 2.15-.261 2.912-.558a5.862 5.862 0 002.126-1.384 5.862 5.862 0 001.384-2.126c.297-.762.5-1.635.558-2.912C23.986 15.668 24 15.26 24 12s-.014-3.668-.072-4.948c-.058-1.277-.261-2.15-.558-2.912a5.862 5.862 0 00-1.384-2.126A5.862 5.862 0 0019.86.63C19.098.333 18.225.13 16.948.072 15.668.014 15.26 0 12 0z"/>
+              <path d="M12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8z"/>
+              <circle cx="18.406" cy="5.594" r="1.44"/>
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61575931356700" target="_blank" rel="noopener" aria-label="Facebook" class="social-icon social-icon--facebook">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+              <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.97h-1.514c-1.491 0-1.956.93-1.956 1.884v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/>
+            </svg>
+          </a>
+          <a href="https://www.tiktok.com/@casa.prometeo" target="_blank" rel="noopener" aria-label="TikTok" class="social-icon social-icon--tiktok">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+              <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.75a8.2 8.2 0 004.79 1.53V6.84a4.85 4.85 0 01-1.02-.15z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="year"></span> Casa Prometeo. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="#contacto" class="whatsapp-fab" id="whatsappFab" aria-label="Contáctanos por WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor" aria-hidden="true">
+      <path d="M16 3C9 3 3.5 8.5 3.5 15.5c0 2.3.6 4.4 1.7 6.3L3 29l7.4-2.1c1.8 1 3.9 1.6 6.1 1.6 7 0 12.5-5.5 12.5-12.5S23 3 16 3zm0 22.7c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.4 1.2 1.2-4.3-.3-.4a10 10 0 01-1.6-5.5c0-5.6 4.6-10.2 10.2-10.2S26.2 9.9 26.2 15.5 21.6 25.7 16 25.7zm5.7-7.6c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-1.8-.9-3-1.6-4.2-3.6-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.6s-.7-1.7-1-2.3c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.7 5.9 5.1 2.2.9 3 1 4.1.9.6-.1 1.8-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/>
+    </svg>
+  </a>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

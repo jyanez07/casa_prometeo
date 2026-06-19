@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mtro. Edgar Sebastian Hernandez",
+    "materia": "Matemáticas/Física",
+    "bio": "Maestro en Ciencia e Ingeniería de materiales con 5 años preparando alumnos para el examen de admisión.",
+    "foto": "/assets/profes/sebas.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Fisico Ricardo Jair Yañez Hernández",
+    "materia": "Física/Matemáticas",
+    "bio": "Licenciado en física. Hace que los conceptos difíciles se entiendan con ejemplos de la vida real.",
+    "foto": "/assets/profes/jair.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Lic. Andrea Enid Lara ",
+    "materia": "Literatura",
+    "bio": "",
+    "foto": "/assets/profes/andy_lara.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Dra. Andrea Vidal Sanchez",
+    "materia": "Biología",
+    "bio": "",
+    "foto": "/assets/profes/profe4.jpg"
+  }
+]
