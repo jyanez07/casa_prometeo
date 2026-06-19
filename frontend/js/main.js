@@ -64,8 +64,8 @@ function initContactForm() {
     if (!ok) return;
 
     const texto =
-      `¡Hola Casa Prometeo! 👋%0A%0A` +
-      `*Nombre:* ${nombre}%0A` +
+      `¡Hola!` +
+      `Mi nombre es ${nombre}%0A` +
       `*Teléfono:* ${telefono}%0A` +
       `*Me interesa:* ${interes}` +
       (mensaje ? `%0A*Mensaje:* ${mensaje}` : "");
